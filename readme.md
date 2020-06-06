@@ -19,3 +19,23 @@
 \* chromedriver (chromeのversionに基づく)
 
 *googlechrome
+
+
+
+## DEMO
+
+
+
+* QRから読み込んだURLを入力してください。
+
+driver.get('https://')
+
+
+
+* email_addressの部分を自身のアドレスに書き換えてください。
+
+driver.find_element(:id, 'email').send_keys 'email_address'
+
+* email_addressの部分を自身のアドレスに書き換えてください。
+
+driver.find_element(:id, 'email_confirmation').send_keys 'email_address'
